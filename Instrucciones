@@ -1,0 +1,23 @@
+Puertos:
+Fastapi ~ 8000
+adminer ~ 8080
+React ~ 5173
+Postgres ~ 5433
+
+
+
+poner archivo .env dentro de backend
+POSTGRES_USER=root
+POSTGRES_PASSWORD=123
+POSTGRES_SERVER=db
+POSTGRES_PORT=5432
+POSTGRES_DB=hotel_reservas
+
+DATABASE_URL=postgresql+asyncpg://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_SERVER}:${POSTGRES_PORT}/${POSTGRES_DB}
+
+ENVIRONMENT=local
+DEBUG=true
+SECRET_KEY=changethis-in-production
+
+
+INICIALIZAR CON :  docker compose UP --buil
