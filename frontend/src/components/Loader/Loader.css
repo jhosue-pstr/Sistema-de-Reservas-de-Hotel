@@ -1,0 +1,9 @@
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1a2e;
+  color: white;
+  font-family: sans-serif;
+}
